@@ -61,7 +61,7 @@ class DataGenerator(Sequence):
             np.random.shuffle(self.indexes)
 
     def _generate_X(self, list_IDs_temp):
-        """Generates data containing batch_size images
+        """Generates data containing batch_size signals
         :param list_IDs_temp: list of label ids to load
         :return: batch of images
         """
